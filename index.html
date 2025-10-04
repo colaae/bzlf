@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ТОО "Безопастность-Life"</title>
+    <meta name="description"
+        content="Продажа и установка пожарного оборудования: огнетушители, пожарные щиты, рукава, сигнализация, пожарные шкафы. Сертифицировано. Доставка по Казахстану." />
+    <meta name="keywords"
+        content="пожарное оборудование, огнетушители, пожарные щиты, пожарная сигнализация, пожарные рукава, пожарные шкафы, Павлодар" />
+    <meta property="og:title" content="Пожарное оборудование — продажа и монтаж" />
+    <meta property="og:description"
+        content="Сертифицированное пожарное оборудование с доставкой и монтажом. Гарантия, документы, лучшие цены." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: "#fff1f1",
+                            100: "#ffe0e0",
+                            200: "#ffbdbd",
+                            300: "#ff9a9a",
+                            400: "#ff6a6a",
+                            500: "#ef4444",
+                            600: "#dc2626",
+                            700: "#b91c1c",
+                            800: "#991b1b",
+                            900: "#7f1d1d",
+                        },
+                        dark: "#0b0f14",
+                    },
+                    boxShadow: {
+                        soft: "0 10px 30px rgba(0,0,0,0.08)",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-[#0b0f14] text-white antialiased selection:bg-brand-500 selection:text-white">
+    <!-- Top bar -->
+    <div class="w-full bg-brand-700/95 text-white text-sm">
+        <div class="max-w-7xl mx-auto safe-area flex items-center justify-between py-2">
+            <p class="opacity-90">
+                Сертифицированное пожарное оборудование • Доставка по Павлодарской области.
+            </p>
+            <a href="tel:+77000000000" class="font-medium hover:underline">Позвонить: +7 705 840 69 51</a>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 border-b border-white/10 glass">
+        <div class="max-w-7xl mx-auto safe-area flex items-center justify-between py-3">
+            <a href="#" class="flex items-center gap-3">
+                <span class="inline-flex h-17 w-17 items-center justify-center rounded-full shadow-soft"><img
+                        src="img/logo.png" alt="Логотип" class="h-16 w-16 object-contain" />
+                </span>
+                <span class="font-extrabold tracking-widest text-lg">Безопастность-Life</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-6 text-lg font-bold">
+                <a class="hover:text-brand-400" href="#catalog">Товары</a>
+                <a class="hover:text-brand-300" href="#services">Услуги</a>
+                <a class="hover:text-brand-400" href="#benefits">Преимущества</a>
+                <a class="hover:text-brand-400" href="#docs">Документы</a>
+                <a class="hover:text-brand-400" href="#faq">FAQ</a>
+                <a class="hover:text-brand-400" href="#contacts">Контакты</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <a href="#order"
+                    class="hidden md:inline-flex px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 shadow-soft">Получить
+                    счёт</a>
+                <button id="menuBtn" class="md:hidden inline-flex p-2 rounded-lg hover:bg-white/10"
+                    aria-label="Открыть меню">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobileMenu" class="md:hidden hidden border-t border-white/10">
+            <div class="safe-area py-3 flex flex-col gap-3 text-sm">
+                <a class="hover:text-brand-300" href="#catalog">Товары</a>
+                <a class="hover:text-brand-300" href="#services">Услуги</a>
+                <a class="hover:text-brand-300" href="#benefits">Преимущества</a>
+                <a class="hover:text-brand-300" href="#docs">Документы</a>
+                <a class="hover:text-brand-300" href="#faq">FAQ</a>
+                <a class="hover:text-brand-300" href="#contacts">Контакты</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[radial-gradient(60%_80%_at_20%_0%,rgba(239,68,68,.25),transparent),radial-gradient(70%_60%_at_100%_50%,rgba(239,68,68,.15),transparent)]">
+        </div>
+        <div class="max-w-7xl mx-auto safe-area grid md:grid-cols-2 gap-10 items-center py-14 md:py-20">
+            <div>
+                <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+                    Пожарно-техническое вооружение для объектов хозяйствования, бизнеса
+                    и дома<br /><span class="text-brand-400">с установкой и документацией</span>
+                </h1>
+                <p class="mt-4 text-white/80 max-w-prose">
+                    Подберём, доставим и смонтируем: огнетушители, пожарные шкафы,
+                    рукава, пожарные щиты, АПС/СОУЭ. Предоставим сертификаты, акты и
+                    гарантию.
+                </p>
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="#catalog"
+                        class="z-30 px-5 py-3 rounded-xl bg-white text-dark font-medium shadow-soft">Смотреть товары</a>
+                    <a href="#services"
+                        class="z-30 px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 shadow-soft">Услуги</a>
+                    <a href="#order"
+                        class="z-30 px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 shadow-soft">Запросить
+                        Коммерческое предложение</a>
+                </div>
+                <dl class="mt-8 grid grid-cols-2 gap-6 text-sm">
+                    <div>
+                        <dt class="text-white/60">Срок поставки</dt>
+                        <dd class="font-semibold">от 1 дня (по согласованию с клиентом) </dd>
+                    </div>
+                    <div>
+                        <dt class="text-white/60">Гарантия</dt>
+                        <dd class="font-semibold">до 24 мес.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-white/60">Доставка</dt>
+                        <dd class="font-semibold">по Павлодарской обл.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-white/60">Опт и розница</dt>
+                        <dd class="font-semibold">KZT / безнал</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="relative">
+                <div class="bg-grid rounded-2xl border border-white/10 p-5 shadow-soft">
+                    <img src="img/fire.png" alt="Огнетушители" />
+                </div>
+                <div
+                    class="absolute -bottom-6 -right-6 bg-white/10 backdrop-blur rounded-2xl p-4 border border-white/10">
+                    <p class="text-sm">
+                        <span class="font-semibold">Сертифицировано</span> • ISO • ГОСТ •
+                        СТ РК
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories / filter -->
+    <section id="catalog" class="py-16 md:py-20 border-t border-white/10">
+        <div class="max-w-7xl mx-auto safe-area">
+            <div class="flex items-end justify-between gap-6">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-bold">Товары</h2>
+                    <p class="text-white/70 mt-2">
+                        Популярные позиции. Нужного товара нет? Напишите — привезём под
+                        заказ.
+                    </p>
+                </div>
+                <div class="hidden md:flex items-center gap-2">
+                    <input id="search" type="text" placeholder="Поиск по названию"
+                        class="px-3 py-2 rounded-lg bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-500" />
+                </div>
+            </div>
+            <!-- фильтр по категориям -->
+            <div class="mt-6 flex flex-wrap gap-2">
+                <select id="extinguisherSelect"
+                    class="extinguisherSelect px-4 py-2 rounded-xl shadow-md font-bold text-dark focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="extinguisher" selected>Все огнетушители</option>
+                    <option value="powder">Порошковые</option>
+                    <option value="carbon">Углекислотные</option>
+                    <option value="foam">Переносные</option>
+                </select>
+
+                <button data-filter="cabinet"
+                    class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Шкафы
+                </button>
+                <button data-filter="hose" class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Рукава
+                </button>
+                <button data-filter="shield" class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Щиты
+                </button>
+                <button data-filter="box" class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Ящики
+                </button>
+                <button data-filter="cloth" class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Полотно
+                </button>
+                <button data-filter="aps" class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    АПС/СОУЭ
+                </button>
+                <button data-filter="battery"
+                    class="filter-btn px-4 py-2 rounded-xl bg-white/10 border border-white/10">
+                    Аккумуляторы/Блоки
+                </button>
+            </div>
+
+            <!-- товары -->
+            <div id="products" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="product" data-category="powder" data-name="Порошковый огнетушитель ОП-2(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Порошковый огнетушитель ОП-2(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 2 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Порошковый огнетушитель ОП-2(з)-АВСЕ"
+                                data-text="Огнетушитель порошковый ОП-2 универсальный переносной огнетушитель закачного
+                    типа. Ранг по модельным очагам 0,7А, 21В, С, Е до 1000В. Порошковый огнетушитель предназначен для оперативного устранения очага возгорания. Перезарядку порошковых огнетушителей необходимо производить один раз в 5 лет.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="powder" data-name="Порошковый огнетушитель ОП-5(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Порошковый огнетушитель ОП-5(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 5 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Порошковый огнетушитель ОП-5(з)-АВСЕ" data-text="Огнетушители порошковые ОП-5 (з) закачного типа с массой заряда 5 кг применяются
+                    для тушения возгораний твердых (класс А), жидких (класс В), газообразных веществ (класс С) и электроустановок под напряжением до 1000 В (класс Е). Данный тип огнетушителей используется при относительно малой площади возгорания, что делает
+                    возможным его применение в местах скопления людей.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="powder" data-name="Порошковый огнетушитель ОП-8(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Порошковый огнетушитель ОП-8(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 8 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Порошковый огнетушитель ОП-8(з)-АВСЕ" data-text="Огнетушитель порошковый ОП-8 предназначен для тушения возгорания твердых,
+                    жидких и газообразных веществ (класса А,В,С или В,С в зависимости от типа применяемого порошка). Огнетушитель порошковый ОП-8 не предназначен для тушения загораний щелочных и щелочноземельных металлов и других материалов, горение которых
+                    может происходить без доступа воздуха.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="powder" data-name="Порошковый огнетушитель ОП-10 (з) АВСЕ ЗПУ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Порошковый огнетушитель ОП-10 (з) АВСЕ ЗПУ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 10 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Порошковый огнетушитель ОП-10 (з) АВСЕ ЗПУ"
+                                data-text="Oгнетушитель порошковый ОП-5 Ярпожинвест — универсальный переносной
+                    огнетушитель закачного типа. Масса заряда огнетушащего вещества — 5 кг. Ранг по модельным очагам: 2А, 70В, С, Е (до 1000В).">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="carbon"
+                    data-name="Огнетушитель углекислотный ОУ-5 ВСЕ (ОУ-5-ВСЕ Бриз с МРС)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/5exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Огнетушитель углекислотный ОУ-5 ВСЕ (ОУ-5-ВСЕ Бриз с МРС)
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 4,7 кг
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Огнетушитель углекислотный ОУ-5 ВСЕ (ОУ-5-ВСЕ Бриз с МРС)"
+                                data-text="Предназначены для защиты помещений производственного и хозяйственного назначения, применяются на автомобильном, железнодорожном, речном транспорте и в бытовых условиях в качестве первичных средств тушения пожаров классов В (жидких горючих веществ) и электроустановок, находящихся под напряжением до 10 000 В (класс пожара Е). Не предназначены для тушения загораний щелочных и щелочноземельных металлов и материалов, горение которых может происходить без доступа воздуха.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="carbon"
+                    data-name="Огнетушитель углекислотный ОУ-10 ВСЕ разобранный">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/6exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Огнетушитель углекислотный ОУ-10 ВСЕ разобранный
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 9,7 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Огнетушитель углекислотный ОУ-10 ВСЕ разобранный"
+                                data-text="Углекислотный огнетушитель высокого давления с зарядом жидкой двуокиси углерода, находящейся под давлением насыщенных паров закачной Ярпожинвест ОУ-10 ВСЕ разобр. используется для тушения пожаров типа: В — жидкие вещества, С — газообразных горючих веществ, Е — электроустановок, находящихся под напряжением. Вместимость корпуса 13,4 л. Обязательная перезарядка должна проводиться 1 раз в 5 лет. Зарядку, перезарядку, освидетельствование и техническое обслуживание огнетушителя следует производить только на станциях технического обслуживания, имеющих соответствующую лицензию. Применяются в температурном диапазоне от -40 до +50С.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="foam"
+                    data-name="Передвижной порошковый огнетушитель ОП-50(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/7exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Передвижной порошковый огнетушитель ОП-50(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 50 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Передвижной порошковый огнетушитель ОП-50(з)-АВСЕ"
+                                data-text="ОП-50 необходим для ликвидации очагов возгораний тех классов, которые полностью соответствуют физико-химическим параметрам огнетушащего порошка, которым заряжено устройство:
+С порошковым составом общего назначения для подавления очагов пожаров классов A, B, C, E – твердых веществ, горючих жидкостей, газов, а также электроустановок, промышленного оборудования, подключенного к сетям энергоснабжения напряжением до 1000 В. Такой огнегасящий состав является универсальным, поэтому большинство товарных изделий ОП-50 снаряжается этим порошком, способствуя востребованности изделий при заказе для комплектации объектов защиты.
+Класс А – пожары твёрдых горючих веществ;
+Класс В – пожары легковоспламеняющихся и горючих жидкостей;
+Класс С – пожары газов;
+Класс Е – пожары электрооборудования, находящегося под напряжением до 1000 В.
+С составом общего назначения, предназначенным для прекращения процесса горения пожаров классов В, С, Е, то есть жидких, газообразных горючих материалов, веществ, электроустановок, за исключением твердых тел.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="foam"
+                    data-name="Передвижной порошковый огнетушитель ОП-35(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/8exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Передвижной порошковый огнетушитель ОП-35(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 35 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Передвижной порошковый огнетушитель ОП-35(з)-АВСЕ"
+                                data-text="Огнетушитель порошковый передвижной ОП-35(з) закачного типа предназначен для тушения локальных очагов возгорания в промышленных, складских, торговых, административных, жилых помещениях, гаражах и на транспорте следующих классов пожара: класс А – пожары твёрдых горючих веществ; класс В – пожары легковоспламеняющихся и горючих жидкостей; класс С – пожары газов; класс Е – пожары электрооборудования, находящегося под напряжением до 1000 В. Огнетушитель порошковый ОП-35(з) является изделием многоразового использования. Принцип действия огнетушителя основан на использовании энергии сжатого газа для аэрирования и выброса огнетушащего порошка.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="foam"
+                    data-name="Передвижной порошковый огнетушитель ОП-100(з)-АВСЕ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/9exh.png" alt="Огнетушитель" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Передвижной порошковый огнетушитель ОП-100(з)-АВСЕ
+                                </h3>
+                                <p class="text-sm text-white/70">
+                                    Масса заряда огнетушащего вещества 100 кг.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Передвижной порошковый огнетушитель ОП-100(з)-АВСЕ"
+                                data-text="Передвижные порошковые огнетушители ОП-100 используют для тушения твердых веществ, жидкостей и газов, а также электроустановок под напряжением. Огнетушители ОП-100 применяют для устранения очагов возгораний на производстве, в жилых и общественных помещениях. Вместимость корпуса ОП-100 составляет 120 л, масса заряда — 100 кг. ОП-100 рассчитан на тушение объекта возгорания в течение 20 секунд при длине струи 6 м. Передвижные огнетушители ОП-100 для удобства транспортировки и эксплуатации снабжены тележкой.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!-- шкафы -->
+                <article class="product" data-category="cabinet" data-name="Шкаф пожарный ШПК-310">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1skf.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Шкаф пожарный ШПК-310</h3>
+                                <p class="text-sm text-white/70">Навесной, закрытый</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Шкаф пожарный ШПК-310"
+                                data-text="Шкаф пожарный ШП-К1(Н)ЗБ (старое обозначение ШПК-310 НЗБ) с почтовым замком — предназначен для размещения и обеспечения сохранности первичных средств пожаротушения. Конструкция пожарного шкафа обеспечивает его естественную вентиляцию. В боковых стенках пожарного шкафа имеется отверстие для трубопровода. Антикоррозионные защитные покрытия пожарного шкафа выполнены эпоксидно-полиэфирной порошковыми красками импортного производства белого цвета. Пожарный шкаф выполнен из листового металла. Дверца шкафа цельнометаллическая. Запирание дверцы шкафа происходит с помощью почтового замка, с использованием ключа, для хранения ключа на дверце шкафа имеется специальное место. На задней стенке шкафа имеются отверстия для крепления шкафа к стене.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="cabinet" data-name="Шкаф пожарный ШПК-310">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2skf.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Шкаф пожарный ШПК-310</h3>
+                                <p class="text-sm text-white/70">Навесной, открытый</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Шкаф пожарный ШПК-310"
+                                data-text="Шкаф пожарный ШП-К1(Н)ОБ (старое обозначение ШПК-310 НОБ) с почтовым замком — предназначен для размещения и обеспечения сохранности первичных средств пожаротушения. Конструкция пожарного шкафа обеспечивает его естественную вентиляцию. В боковых стенках пожарного шкафа имеется отверстие для трубопровода. Антикоррозионные защитные покрытия пожарного шкафа выполнены эпоксидно-полиэфирной порошковыми красками импортного производства белого цвета. Пожарный шкаф выполнен из листового металла. Дверца шкафа цельнометаллическая, со смотровым окном из минерального стекла. Запирание дверцы шкафа происходит с помощью почтового замка, с использованием ключа, для хранения ключа на дверце шкафа имеется специальное место. На задней стенке шкафа имеются отверстия для крепления шкафа к стене.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="cabinet" data-name="Пожарный шкаф ШПК-315">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3skf.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Шкаф пожарный ШПК-315</h3>
+                                <p class="text-sm text-white/70">Навесной, закрытый</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Шкаф пожарный ШПК-315"
+                                data-text="ШП-К1-О1-(Н)ЗК/-(Н)ЗБ Стандарт (840х650х230)ЗП Шкаф пожарный ШП-К1-О1(Н)ЗБ (старое обозначение ШПК-315 НЗБ) с почтовым замком — предназначен для размещения и обеспечения сохранности первичных средств пожаротушения. Пожарный шкаф выполнен из листового металла. Дверца шкафа цельнометаллическая. Запирание дверцы шкафа происходит с помощью почтового замка, с использованием ключа, для хранения ключа на дверце шкафа имеется специальное место. На задней стенке шкафа имеются отверстия для крепления шкафа к стене.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="cabinet" data-name="Пожарный шкаф ШПК-320">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4skf.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Пожарный шкаф ШПК-320</h3>
+                                <p class="text-sm text-white/70">Навесной, закрытый</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный шкаф ШПК-320"
+                                data-text="Шкаф пожарный ШП-К1-О2(Н)ЗК (старое обозначение ШПК-320 НЗК) с почтовым замком — предназначен для размещения и обеспечения сохранности первичных средств пожаротушения. Конструкция пожарного шкафа обеспечивает его естественную вентиляцию. В боковых стенках пожарного шкафа имеется отверстие для трубопровода. Антикоррозионные защитные покрытия пожарного шкафа выполнены эпоксидно-полиэфирной порошковыми красками импортного производства красного цвета.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="cabinet" data-name="Пожарный шкаф ШПО-113 (Н) З">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/5skf.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Пожарный шкаф ШПО-113 (Н) З</h3>
+                                <p class="text-sm text-white/70">Навесной, закрытый</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный шкаф ШПО-113 (Н) З"
+                                data-text="Шкаф пожарный ШП-02(Н)ОК (старое обозначение ШПО-113) предназначен для размещения и обеспечения сохранности первичных средств пожаротушения — 2-х огнетушителей. Конструкция пожарного шкафа обеспечивает его естественную вентиляцию. Антикоррозионные защитные покрытия пожарного шкафа выполнены эпоксидно-полиэфирной порошковыми красками импортного производства красного цвета. Пожарный шкаф имеет конструктивные элементы для опломбирования и фиксации в закрытом положении дверок шкафа позволяющие за 15 секунд безопасно открыть шкаф в экстренных случаях. Пожарный шкаф выполнен из листового металла. Дверца шкафа цельнометаллическая, со смотровым окном. На задней стенке шкафа имеются отверстия для крепления шкафа к стене.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--рукава-->
+                <article class="product" data-category="hose"
+                    data-name="Пожарный рукав 50-1,0-М-УХЛ1 без головок (20±1м)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1rkv.png" alt="Рукав" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Пожарный рукав 50-1,0-М-УХЛ1 без головок (20±1м)
+                                </h3>
+                                <p class="text-sm text-white/70">Рукав для ПК</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный рукав 50-1,0-М-УХЛ1 без головок (20±1м)"
+                                data-text="Рукава с внутренним гидроизоляционным покрытием из полимеров без наружного защитного покрытия 1,0 МПа для внутренних и наружных пожарных кранов специального исполнения: маслостойкий.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="hose"
+                    data-name="Пожарный рукав 50-1,0-М-УХЛ1 с головками ГР-50а-пл (20±1м)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2rkv.png" alt="Рукав" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Пожарный рукав 50-1,0-М-УХЛ1 с головками ГР-50а-пл (20±1м)
+                                </h3>
+                                <p class="text-sm text-white/70">Рукав для ПК</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный рукав 50-1,0-М-УХЛ1 с головками ГР-50а-пл (20±1м)"
+                                data-text="Рукав пожарного крана Классик 1,0 МПа предназначен для комплектования внутренних и наружных пожарных кранов с условным проходом Dn 50 и мотопомп. Данный рукав поставляется с навязанным на рукавные пожарные соединительные головки ГР-50а оцинкованной проволокой ГОСТ 792 диаметром 1,6 мм.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="hose"
+                    data-name="Пожарный рукав 65-1,0-М-УХЛ1 без головок (20±1м)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3rkv.png" alt="Рукав" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Пожарный рукав 65-1,0-М-УХЛ1 без головок (20±1м)
+                                </h3>
+                                <p class="text-sm text-white/70">Рукав для ПК</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный рукав 65-1,0-М-УХЛ1 без головок (20±1м)" data-text="Рукав пожарного крана Классик 1,0 МПа предназначен для комплектования внутренних и наружных пожарных кранов с условным проходом Dn 65 и мотопомп. Внимание! 1 МПа = это около 9,8 атм.
+
+Отличительными свойствами этого рукава являются:
+
+хорошая климатическая стойкость, в том числе к низким температурам;
+высокая стойкость к жирам, маслам и другим растворителям;
+стойкость к гниению и плесени;
+не требуют перекатки и талькирования; 
+не рассыхается и не слеживается.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="hose"
+                    data-name="Пожарный рукав 65-1,0-М-УХЛ1 с головками ГР-65ал (20±1м)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4rkv.png" alt="Рукав" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Пожарный рукав 65-1,0-М-УХЛ1 с головками ГР-65ал (20±1м)
+                                </h3>
+                                <p class="text-sm text-white/70">Рукав для ПК</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Пожарный рукав 65-1,0-М-УХЛ1 с головками ГР-65ал (20±1м)" data-text="Рукав пожарного крана Классик 1,0 МПа предназначен для комплектования внутренних и наружных пожарных кранов с условным проходом Dn 65 и мотопомп.
+
+Данный рукав поставляется навязанным на рукавные пожарные соединительные головки ГР-65а (ГР-70а) оцинкованной проволокой ГОСТ 792 диаметром 1,6 мм.
+
+Отличительными свойствами этого рукава являются:
+
+хорошая климатическая стойкость, в том числе к низким температурам;
+высокая стойкость к жирам, маслам и другим растворителям;
+стойкость к гниению и плесени;
+не требуют перекатки и талькирования;
+не рассыхается и не слеживается.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--Щиты-->
+                <article class="product" data-category="shield"
+                    data-name="Щит закрытый ЩПЗ(з) (1300х1000х300) (дверь закрытая)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1shd.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Щит закрытый ЩПЗ(з) (1300х1000х300)
+                                </h3>
+                                <p class="text-sm text-white/70">Щиты пожарные (дверь закрытая)</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Щит закрытый ЩПЗ(з) (1300х1000х300) (дверь закрытая)"
+                                data-text="Щит пожарный поставляется в собранном состоянии, в упаковке. Щит пожарный закрытый ЩПЗ может комплектоваться ящиком для песка ЯПРС-0,3 или ЯПРС-0,5 для формирования пожарного стенда. Для крепления щита пожарного ЩПЗ к ящику, в нижней части щита ЩПЗ, предусмотрены четыре монтажных отверстия.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="shield"
+                    data-name="Щит закрытый ЩПЗ(з) (1300х700х300) (дверь закрытая)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2shd.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Щит закрытый ЩПЗ(з) (1300х700х300)
+                                </h3>
+                                <p class="text-sm text-white/70">Щиты пожарные (дверь закрытая)</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Щит закрытый ЩПЗ(з) (1300х700х300) (дверь закрытая)"
+                                data-text="Щит пожарный поставляется в собранном состоянии, в упаковке.
+
+Щит пожарный закрытый ЩПЗ может комплектоваться ящиком для песка ЯПРС-0,3 или ЯПРС-0,5 для формирования пожарного стенда. Для крепления щита пожарного ЩПЗ к ящику, в нижней части щита ЩПЗ, предусмотрены четыре монтажных отверстия.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="shield"
+                    data-name="Щит закрытый ЩПЗ(з) (1500х1000х300) (дверь закрытая)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3shd.png" alt="Пожарный шкаф" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Щит закрытый ЩПЗ(з) (1500х1000х300)
+                                </h3>
+                                <p class="text-sm text-white/70">Щиты пожарные (дверь закрытая)</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Щит закрытый ЩПЗ(з) (1500х1000х300) (дверь закрытая)"
+                                data-text="Щит пожарный поставляется в собранном состоянии, в упаковке.
+
+Щит пожарный закрытый ЩПЗ может комплектоваться ящиком для песка ЯПРС-0,3 или ЯПРС-0,5 для формирования пожарного стенда. Для крепления щита пожарного ЩПЗ к ящику, в нижней части щита ЩПЗ, предусмотрены четыре монтажных отверстия.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="shield"
+                    data-name="Щит закрытый ЩПЗ(р) (1200х540х300) (дверь с решеткой)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2shd.png" alt="Пожарный щит" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Щит закрытый ЩПЗ(р) (1200х540х300)
+                                </h3>
+                                <p class="text-sm text-white/70">Щиты пожарные (дверь с решеткой)</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Щит закрытый ЩПЗ(р) (1200х540х300) (дверь с решеткой)"
+                                data-text="Щит пожарный поставляется в собранном состоянии, в упаковке.
+
+Щит пожарный закрытый ЩПЗ может комплектоваться ящиком для песка ЯПРС-0,3 или ЯПРС-0,5 для формирования пожарного стенда. Для крепления щита пожарного ЩПЗ к ящику, в нижней части щита ЩПЗ, предусмотрены четыре монтажных отверстия.
+
+Щиты выпускаются в нескольких модификациях, модификация указывается в полном наименовании щита, в скобках после названия, например: ЩПЗ(р), ЩПЗ(з), ЩПЗ(о).">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="shield" data-name="Щит открытый (1250х1050х60) метал СБ/РАЗБ">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4shd.png" alt="Пожарный щит" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Щит открытый (1250х1050х60) метал СБ/РАЗБ
+                                </h3>
+                                <p class="text-sm text-white/70">Щиты пожарные</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Щит открытый (1250х1050х60) метал СБ/РАЗБ" data-text="Щит пожарный открытый ЩПРО предназначен для хранения первичных средства пожаротушения в соответствии с «Правилами противопожарного режима» в Российской Федерации, Приложение №5 и Приложение №6.
+
+Щит пожарный поставляется в разобранном виде, в упаковке. В стандартную комплектацию щита пожарного входят:
+
+лом
+багор
+лопата
+два конусных ведра.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--Ящики-->
+                <article class="product" data-category="box"
+                    data-name="Ящик для песка ЯПР-0,12 ( ДхШхВ 430х585х485 сб/разб)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1box.png" alt="Ящик для песка" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">
+                                    Ящик для песка ЯПР-0,12 ( ДхШхВ 430х585х485 сб/разб)
+                                </h3>
+                                <p class="text-sm text-white/70">Ящики для песка</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Ящик для песка ЯПР-0,12 ( ДхШхВ 430х585х485 сб/разб)" data-text="Габаритные размеры в собранном состоянии, мм (Д×В×Ш), не более: 1220х580х470
+Масса, не более: 30 кг.
+
+Ящик для песка предназначен для хранения песка, применяемого для ликвидации загорания, утечки нефтепродуктов и других легковоспламеняющихся веществ.
+
+Пожарные ящики для песка устанавливаются на автозаправочных комплексах, объектах производственного назначения и других пожароопасных территориях.
+
+Ящики с песком, как правило, должны устанавливаться со щитами в помещениях или открытых площадках, где возможен розлив легковоспламеняющихся или горючих жидкостей. Для помещений и наружных технологических установок категории А, Б и В (горючие газы и жидкости) запас песка в ящика должен быть не менее 0,5 м³ на каждые 500м² защищаемой площади, а для помещений и наружных технологических установок категории Г и Д не менее 0,5 м³ на каждые 1000м² защищаемой площади.
+
+Ящики для песка изготавливают разборные для удобства транспортировки и цельные (сварные), следующего объема:
+
+0,1 м3, 0,12 м3, 0,15 м3, 0,25 м3, 0,3 м3, 0,36 м3, 1,0 м3">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="box"
+                    data-name="Ящик для песка ЯПР-0,3(ДхШхВ 1205х585х490; сб/разб)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1box.png" alt="Ящик для песка" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Ящик для песка ЯПР-0,3(ДхШхВ 1205х585х490; сб/разб)</h3>
+                                <p class="text-sm text-white/70">Ящики для песка</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Ящик для песка ЯПР-0,3(ДхШхВ 1205х585х490; сб/разб)" data-text="Габаритные размеры в собранном состоянии, мм (Д×В×Ш), не более: 1220х580х470
+Масса, не более: 30 кг.
+
+Ящик для песка предназначен для хранения песка, применяемого для ликвидации загорания, утечки нефтепродуктов и других легковоспламеняющихся веществ.
+
+Пожарные ящики для песка устанавливаются на автозаправочных комплексах, объектах производственного назначения и других пожароопасных территориях.
+
+Ящики с песком, как правило, должны устанавливаться со щитами в помещениях или открытых площадках, где возможен розлив легковоспламеняющихся или горючих жидкостей. Для помещений и наружных технологических установок категории А, Б и В (горючие газы и жидкости) запас песка в ящика должен быть не менее 0,5 м³ на каждые 500м² защищаемой площади, а для помещений и наружных технологических установок категории Г и Д не менее 0,5 м³ на каждые 1000м² защищаемой площади.
+
+Ящики для песка изготавливают разборные для удобства транспортировки и цельные (сварные), следующего объема:
+
+0,1 м3, 0,12 м3, 0,15 м3, 0,25 м3, 0,3 м3, 0,36 м3, 1,0 м3">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="box"
+                    data-name="Ящик для песка ЯПР-0,5 (ДхШхВ 1205х585х800; сб/разб)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1box.png" alt="Ящик для песка" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Ящик для песка ЯПР-0,5 (ДхШхВ 1205х585х800; сб/разб)</h3>
+                                <p class="text-sm text-white/70">Ящики для песка</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Ящик для песка ЯПР-0,5 (ДхШхВ 1205х585х800; сб/разб)" data-text="Габаритные размеры в собранном состоянии, мм (Д×В×Ш), не более: 1220х790х600
+Масса, не более: 42 кг.
+
+Ящик для песка предназначен для хранения песка, применяемого для ликвидации загорания, утечки нефтепродуктов и других легковоспламеняющихся веществ.
+
+Пожарные ящики для песка устанавливаются на автозаправочных комплексах, объектах производственного назначения и других пожароопасных территориях.
+
+Ящики с песком, как правило, должны устанавливаться со щитами в помещениях или открытых площадках, где возможен розлив легковоспламеняющихся или горючих жидкостей. Для помещений и наружных технологических установок категории А, Б и В (горючие газы и жидкости) запас песка в ящика должен быть не менее 0,5 м³ на каждые 500м² защищаемой площади, а для помещений и наружных технологических установок категории Г и Д не менее 0,5 м³ на каждые 1000м² защищаемой площади.
+
+Ящики для песка изготавливают разборные для удобства транспортировки и цельные (сварные), следующего объема:
+
+0,1 м3, 0,12 м3, 0,15 м3, 0,25 м3, 0,3 м3, 0,36 м3, 1,0 м3">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="box"
+                    data-name="Ящик для песка ЯПРС-0,3 (0,3 м3; сб/разб; совместим ЩПЗ)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2box.png" alt="Ящик для песка" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Ящик для песка ЯПРС-0,3 (0,3 м3; сб/разб; совместим ЩПЗ)</h3>
+                                <p class="text-sm text-white/70">Ящики для песка</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Ящик для песка ЯПРС-0,3 (0,3 м3; сб/разб; совместим ЩПЗ)" data-text="Габаритные размеры в собранном состоянии, мм (Д×В×Ш), не более: 1200х500х540
+Масса, не более: 32 кг.
+
+Ящик для песка предназначен для хранения песка, применяемого для ликвидации загорания, утечки нефтепродуктов и других легковоспламеняющихся веществ. Пожарные ящики для песка устанавливаются на автозаправочных комплексах, объектах производственного назначения и других пожароопасных территориях.
+
+Ящики с песком, как правило, должны устанавливаться со щитами в помещениях или открытых площадках, где возможен розлив легковоспламеняющихся или горючих жидкостей. Для помещений и наружных технологических установок категории А, Б и В (горючие газы и жидкости) запас песка в ящика должен быть не менее 0,5 м³ на каждые 500м² защищаемой площади, а для помещений и наружных технологических установок категории Г и Д не менее 0,5 м³ на каждые 1000м² защищаемой площади.
+
+Ящики для песка изготавливают разборные для удобства транспортировки и цельные (сварные), следующего объема:
+
+0,3 м3
+0,5 м3">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="box"
+                    data-name="Ящик для песка ЯПРС-0,5 (ДШВ 1300х700х655) сб/разб">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2box.png" alt="Ящик для песка" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Ящик для песка ЯПРС-0,5 (ДШВ 1300х700х655) сб/разб</h3>
+                                <p class="text-sm text-white/70">Ящики для песка</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Ящик для песка ЯПРС-0,5 (ДШВ 1300х700х655) сб/разб" data-text="Габаритные размеры в собранном состоянии, мм (Д×В×Ш), не более: 1200х800х540
+Масса, не более: 36 кг.
+
+Ящик для песка предназначен для хранения песка, применяемого для ликвидации загорания, утечки нефтепродуктов и других легковоспламеняющихся веществ. Пожарные ящики для песка устанавливаются на автозаправочных комплексах, объектах производственного назначения и других пожароопасных территориях.
+
+Ящики с песком, как правило, должны устанавливаться со щитами в помещениях или открытых площадках, где возможен розлив легковоспламеняющихся или горючих жидкостей. Для помещений и наружных технологических установок категории А, Б и В (горючие газы и жидкости) запас песка в ящика должен быть не менее 0,5 м³ на каждые 500м² защищаемой площади, а для помещений и наружных технологических установок категории Г и Д не менее 0,5 м³ на каждые 1000м² защищаемой площади.
+
+Ящики для песка изготавливают разборные для удобства транспортировки и цельные (сварные), следующего объема:
+
+0,3 м3
+0,5 м3">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--Полотно-->
+                <article class="product" data-category="cloth"
+                    data-name="Противопожарное полотно ПП-300 (1,0*1,5)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1clth.png" alt="Полотно" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Противопожарное полотно ПП-300 (1,0*1,5)</h3>
+                                <p class="text-sm text-white/70">Кошма</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Противопожарное полотно ПП-300 (1,0*1,5)" data-text="Противопожарное полотно ПП-300 (1,5х2,0) Кошма">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="cloth"
+                    data-name="Противопожарное полотно ПП-600 (1,0*1,5)">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2clth.png" alt="Полотно" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Противопожарное полотно ПП-600 (1,0*1,5)</h3>
+                                <p class="text-sm text-white/70">Кошма</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Противопожарное полотно ПП-600 (1,0*1,5)" data-text="Противопожарное полотно ПП-600 (1,0*1,5) Кошма">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--АПС/СОУЭ-->
+                <article class="product" data-category="aps"
+                    data-name="ИП 212-142">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ИП 212-142</h3>
+                                <p class="text-sm text-white/70">Извещатели Автономные</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ИП 212-142" data-text="Извещатель пожарный дымовой оптико-электронный автономный, чувствительность – 0,05-0,2 дБ/м. Потребление тока — 0,03 мА. Напряжение питания – 9 В (батарея «Крона»). Уровень громкости звукового сигнала – 85 дБ. Диапазон рабочих температур – от -10 до +55°С. Класс защиты – IP30. Габаритные размеры – 93х50 мм. Масса – не более 200 г. Высота установки до 2,3 м- площадь- до 85 м2; свыше 3.5 до 6- до 70 м2; свыше 6 до 10- до 65 м2; свыше 10 до 12- до 55 м2.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="aps"
+                    data-name="ИО 102-27 Извещатель охранный магнитоконтактный">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ИО 102-27 Извещатель охранный магнитоконтактный</h3>
+                                <p class="text-sm text-white/70">Извещатели Автономные</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ИО 102-27 Извещатель охранный магнитоконтактный" data-text="Извещатель охранный ИО 102-27 предназначен для выдачи тревожного извещения на приемно-контрольный прибор или систему передачи извещений; Извещатели охранные ИО 102-27 предназначены для работы в качестве кнопки тревожной сигнализации с фиксацией.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="aps"
+                    data-name="Табло световое Люкс-12 «ШЫГУ/ВЫХОД»">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Табло световое Люкс-12 «ШЫГУ/ВЫХОД»</h3>
+                                <p class="text-sm text-white/70">Табло Световое</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Табло световое Люкс-12 «ШЫГУ/ВЫХОД»" data-text="Табло световое “ШЫГУ”. Питание 12В, ток потребления 17±1,7мА, рабочие температуры -30°С+55°C.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="aps"
+                    data-name="Люкс-12 «ҰНТАҚ! ЖЫЛДАМ КЕТ!/ПОРОШОК! УХОДИ!»">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Люкс-12 «ҰНТАҚ! ЖЫЛДАМ КЕТ!/ПОРОШОК! УХОДИ!»</h3>
+                                <p class="text-sm text-white/70">Табло Световое</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Люкс-12 «ҰНТАҚ! ЖЫЛДАМ КЕТ!/ПОРОШОК! УХОДИ!»" data-text="Табло световое “ҰНТАҚ! ЖЫЛДАМ КЕТ!/ПОРОШОК! УХОДИ!”. Питание 12В, ток потребления 20мА, рабочие температуры -30°С+55°C.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="aps"
+                    data-name="Люкс-12 «ГАЗ! КIРУГЕ БОЛМАЙДЫ!»/»ГАЗ! НЕ ВХОДИ!»">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/5aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Люкс-12 «ГАЗ! КIРУГЕ БОЛМАЙДЫ!»/»ГАЗ! НЕ ВХОДИ!»</h3>
+                                <p class="text-sm text-white/70">Табло Световое</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Люкс-12 «ГАЗ! КIРУГЕ БОЛМАЙДЫ!»/»ГАЗ! НЕ ВХОДИ!»" data-text="Табло световое “ГАЗ! КIРУГЕ БОЛМАЙДЫ!»/»ГАЗ! НЕ ВХОДИ!”. Питание 12В, ток потребления 20мА, рабочие температуры -30°С+55°C.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="aps"
+                    data-name="Табло световое Люкс-12 К «АВТОМАТИКА ВКЛЮЧЕНА»">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/6aps.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Табло световое Люкс-12 К «АВТОМАТИКА ВКЛЮЧЕНА»</h3>
+                                <p class="text-sm text-white/70">Табло Световое</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Табло световое Люкс-12 К «АВТОМАТИКА ВКЛЮЧЕНА»" data-text="Табло световое “АВТОМАТИКА ВКЛЮЧЕНА”, со встроенной сиреной, 12В, 20mА, -30°С+55°C.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <!--Акб/БП-->
+                <article class="product" data-category="battery"
+                    data-name="Аккумулятор SF 1,2 А/ч">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/1acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Аккумулятор SF 1,2 А/ч</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Аккумулятор SF 1,2 А/ч" data-text="Аккумуляторная батарея 12В 1,2 А/ч. Производитель Security Force.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="Аккумулятор SF 12 А/ч">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/2acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Аккумулятор SF 12 А/ч</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Аккумулятор SF 12 А/ч" data-text="Аккумуляторная батарея 12 А/ч Производитель Security Force.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="Аккумулятор SF 17 А/ч">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/3acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Аккумулятор SF 17 А/ч</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Аккумулятор SF 17 А/ч" data-text="Аккумуляторная батарея 17 А/ч Производитель Security Force">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="Аккумулятор SF 26 А/ч»">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/4acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Аккумулятор SF 26 А/ч</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Аккумулятор SF 26 А/ч" data-text="Аккумуляторная батарея 26 А/ч. Производитель Security Force.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="Аккумулятор SF 40 А/ч">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/5acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">Аккумулятор SF 40 А/ч</h3>
+                                <p class="text-sm text-white/70">Электропитание </p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="Аккумулятор SF 40 А/ч" data-text="Аккумуляторная батарея 12В 40 А/ч. Производитель: Security Force.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="ББП-100 исп. 3 (металл) ЭЛИС">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/6acb.png" alt="БП" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ББП-100 исп. 3 (металл) ЭЛИС</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ББП-100 исп. 3 (металл) ЭЛИС" data-text="Источник бесперебойного питания ББП-100 исп. 3 (металл), предназначен для электропитания широкого спектра радиоэлектронного оборудования напряжением 12 В. Блок относится к I классу защиты от поражения электрическим током по , рассчитан на круглосуточную работу. Предназначен для установки в помещениях.
+
+Имеется автоматическая ШИМ стабилизация выходного напряжения, защита от короткого замыкания и перегрузки, наличие защиты от глубокого разряда АКБ и защиты от переполюсовки АКБ, тепловая защита от перегрева, автоматический переход на работу от АКБ при пропадании напряжения в сети. Емкость АКБ 7Ач (2шт.). Напряжение питания от сети переменного тока напряжением ~160-265В частотой 50 ±1Гц. Питание от двух аккумуляторов с номинальным напряжением 12В и емкостью 7Ач. АКБ в комплект не входят">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="ББП-20 (металл) ЭЛИС">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/7acb.png" alt="АПС" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ББП-20 (металл) ЭЛИС</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ББП-20 (металл) ЭЛИС" data-text="Импульсный блок бесперебойного питания в металлическом корпусе под АКБ 7 Ач. Uвх. AC 160-255 V, Uвых. DC 13.4 ± 0.4V, 2A (ном.). Габаритные размеры: 235×170×80 мм.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="ББП-20 (пластик) ЭЛИС">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/8acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ББП-20 (пластик) ЭЛИС</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ББП-20 (пластик) ЭЛИС" data-text="Источник питания ББП-20 предназначен для электропитания устройств и приборов напряжением 12 В. Источник питания предназначен для установки в помещениях, рассчитан на круглосуточную работу и является восстанавливаемым, обслуживаемым изделием. Относится к 0 классу защиты от поражения электрическим током по ГОСТ 12.2.007.0-75.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="ББП-30 (пластик) ЭЛИС">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/9aps.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ББП-30 (пластик) ЭЛИС</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ББП-30 (пластик) ЭЛИС" data-text="Источник питания ББП-30 предназначен для электропитания устройств и приборов напряжением 12В, предназначен для установки в помещениях, рассчитан на круглосуточную работу и является восстанавливаемым, обслуживаемым изделием. Относится к 0 классу защиты от поражения электрическим током.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="product" data-category="battery"
+                    data-name="ББП-50 (пластик) ЭЛИС">
+                    <div class="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-soft">
+                        <img class="rounded-xl h-44 w-full object-contain" src="img/10acb.png" alt="АКБ" />
+                        <div class="mt-4 flex justify-between items-start gap-3">
+                            <div>
+                                <h3 class="font-semibold">ББП-50 (пластик) ЭЛИС</h3>
+                                <p class="text-sm text-white/70">Электропитание</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex gap-2">
+                            <a href="#order"
+                                class="order-btn flex-1 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-center">Заказать</a>
+                            <button class="px-3 py-2 rounded-xl bg-white/10 border border-white/10 details-btn"
+                                data-title="ББП-50 (пластик) ЭЛИС" data-text="Назначение: для электропитания устройств и приборов напряжением 12В, предназначен для установки в помещениях, рассчитан на круглосуточную работу.">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+
+            </div>
+            <div id="productModal" class="hidden fixed inset-0 z-50 bg-black/70 items-center justify-center">
+                <div id="productModalContent"
+                    class="bg-dark rounded-2xl p-6 max-w-lg w-full transform transition duration-200 opacity-0 scale-95">
+                    <button id="closeModal" class="absolute top-4 right-4">✖</button>
+                    <h2 id="modalTitle" class="text-xl font-bold mb-4"></h2>
+                    <img id="modalImage" class="mb-4 w-full h-48 object-contain" src="" alt="" />
+                    <p id="modalText" class="text-white-700"></p>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <a href="#order"
+                    class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white text-dark font-semibold shadow-soft">
+                    Получить прайс-лист (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-dark relative">
+        <div class="container mx-auto px-4 relative">
+            <!-- Заголовок -->
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">
+                Наши услуги
+            </h2>
+
+            <!-- Слайдер -->
+            <div class="overflow-hidden relative">
+                <div id="servicesWrapper" class="flex transition-transform duration-500">
+                    <!-- 5–6 карточек услуг -->
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Разработка Типового паспорта 
+антитеррористической защищенности объектов, уязвимых в террористическом отношении.</h1>
+                    <H3 style="font-size: small;">Основание: 
+Совместный приказ Министра внутренних дел  Республики Казахстан от 14 июня 2023 года 
+№ 481
+и Председателя Комитета национальной
+безопасности Республики Казахстан
+от 23 июня 2023 года № 51/қе.</H3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Проведение аудита в области пожарной безопасности</h1>
+                            <h3 style="font-size: small;">Основание:          Приказ Министерства внутренних дел РК «Об утверждении Правил проведения аудита в области пожарной безопасности от 03 апреля 2017
+за № 240.</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Разработка планов эвакуации в случаи возникновения пожаров</h1>
+                            <h3 style="font-size: small;">Основание: Приказ Министра по чрезвычайным ситуациям Республики Казахстан от 21 февраля 2022 года № 55
+Об утверждении Правил пожарной безопасности</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">План ликвидации чрезвычайных ситуаций на объектах хозяйствования</h1>
+                            <h3 style="font-size: small;">Основание: - Закон о « Гражданской защите» от 11 апреля 2014 года № 188-V;
+- «Инструкция по разработке плана ликвидации аварий и проведению учебных тревог и противоаварийных тренировок на опасных производственных объектах», утвержденная приказом Министра по чрезвычайным ситуациям Республики Казахстан от 16 июля 2021 года № 349;
+- Требования промышленной безопасности при использовании сжиженных углеводородных газов, утвержденная приказом Министра по чрезвычайным ситуациям Республики Казахстан от 18 сентября 2018 года № 172.</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Испытание систем внутреннего противопожарного водоснабжения на работоспособность</h1>
+                            <h3 style="font-size: small;">Основание: строительные нормы СН РК 4.01-02-2011 «Внутренний водопровод и канализация зданий и сооружений», Правила пожарной безопасности утвержденные приказом Министра внутренних дел Республики Казахстан от 21 февраля   2022 года № 55,  требований технического регламента «Общие требования к пожарной безопасности» утвержденные Приказом МЧС РК от 17 августа 2021 года № 405 и СН РК 4.01-02-2011 Внутренний водопровод и канализация зданий и сооружений.</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Перезарядка (переосвидетельствование)  порошковых и углекислотных огнетушителей</h1>
+                            <h3 style="font-size: small;">Основание: СТ РК ГОСТ Р 51057-2005 
+ 
+Техника пожарная.
+Огнетушители переносные.
+Общие технические требования.
+Методы испытаний, Приказ Министра по чрезвычайным ситуациям Республики Казахстан от 21 февраля 2022 года № 55
+Об утверждении Правил пожарной безопасности</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Огнезащитная обработка деревянных конструкций</h1>
+                            <h3 style="font-size: small;">Основание: требования СТ РК 615-1-2011 «Средства огнезащитные для древесины и материалов на ее основе»</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Проведения обучения в рамках пожарно-технического минимуму</h1>
+                            <h3 style="font-size: small;">Основание: Приказ Министра по чрезвычайным ситуациям Республики Казахстан от 9 июня 2014 года № 276 
+Об утверждении Правил обучения работников организаций и населения мерам пожарной безопасности и требования к содержанию учебных программ по обучению мерам пожарной безопасности</h3>
+                        </div>
+                    </div>
+                    <div class="service-card min-w-[33.333%] px-4">
+                        <div class="bg-gray-800 rounded-xl p-6 text-white shadow-soft h-80">
+                            <h1 style="color: red" class="font-bold">Изготовления знаков пожарной безопасности(красного цвета), Проведения обучения по антитеррору, Облуживание систем автоматической пожарной сигнализации </h1>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Стрелки -->
+            <button id="prevService"
+                class="pointer-events-auto absolute top-1/2 -translate-x-full -translate-y-1/7 left-0 px-4 text-white text-5xl font-bold z-20">
+                ‹
+            </button>
+            <button id="nextService"
+                class="pointer-events-auto absolute top-1/2 translate-x-full -translate-y-1/7 right-0 px-4 text-white text-5xl font-bold z-20">
+                ›
+            </button>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="py-16 md:py-20 border-t border-white/10">
+        <div class="max-w-7xl mx-auto safe-area">
+            <h2 class="text-2xl md:text-3xl font-bold">Почему выбирают нас</h2>
+            <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Документы и сертификация</h3>
+                    <p class="text-white/70 mt-2">
+                        Предоставляем сертификаты, акты, паспорта, инструкции и договор.
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Склад в РК</h3>
+                    <p class="text-white/70 mt-2">
+                        Популярные позиции в наличии, оперативная отгрузка и доставка.
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Монтаж и сервис</h3>
+                    <p class="text-white/70 mt-2">
+                        Монтаж АПС/СОУЭ, обслуживание огнетушителей и гидрантов.
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Гарантия до 24 мес.</h3>
+                    <p class="text-white/70 mt-2">
+                        Работаем по договору, гарантия на оборудование и работы.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Docs / Certifications -->
+    <section id="docs" class="py-16 md:py-20 border-t border-white/10">
+        <div class="max-w-7xl mx-auto safe-area">
+            <h2 class="text-2xl md:text-3xl font-bold">Документы и соответствие</h2>
+            <div class="mt-8 grid md:grid-cols-3 gap-6">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Сертификаты соответствия</h3>
+                    <p class="text-white/70 mt-2">
+                        СТ РК • ISO • ГОСТ. По запросу отправим комплект документов.
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Паспорта и инструкции</h3>
+                    <p class="text-white/70 mt-2">
+                        На каждую единицу оборудования предоставляем паспорта и ИЭ.
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                    <h3 class="font-semibold">Акты и договор</h3>
+                    <p class="text-white/70 mt-2">
+                        Акты выполненных работ, договор поставки, гарантийные
+                        обязательства.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA strip -->
+    <section class="py-10 border-y border-white/10 bg-[linear-gradient(120deg,rgba(239,68,68,0.15),transparent)]">
+        <div class="max-w-7xl mx-auto safe-area flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <h3 class="text-xl font-semibold">
+                Нужна консультация и счёт сегодня?
+            </h3>
+            <div class="flex flex-wrap gap-3">
+                <a href="https://wa.me/77058406951"
+                    class="px-5 py-3 rounded-xl bg-green-500 hover:bg-green-400 text-white font-semibold">WhatsApp</a>
+                <a href="tel:+77058406951" class="px-5 py-3 rounded-xl bg-white text-dark font-semibold">Позвонить</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 md:py-20 border-b border-white/10">
+        <div class="max-w-4xl mx-auto safe-area">
+            <h2 class="text-2xl md:text-3xl font-bold">Частые вопросы</h2>
+            <div class="mt-6 divide-y divide-white/10 rounded-2xl border border-white/10">
+                <details class="group p-5" open>
+                    <summary class="cursor-pointer list-none flex items-center justify-between">
+                        <span class="font-medium">Есть ли доставка?</span><svg
+                            class="h-5 w-5 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg
+                               " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="text-white/70 mt-3">
+                        Да, доставляем по всей Павлодарской области! 
+                    </p>
+                </details>
+                <details class="group p-5">
+                    <summary class="cursor-pointer list-none flex items-center justify-between">
+                        <span class="font-medium">Можно безнал и счет на организацию?</span><svg
+                            class="h-5 w-5 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg
+                               " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="text-white/70 mt-3">
+                        Да, выставляем счёт и договор. По НДС обращатся по номеру, указанному в шапке или в самом низу.
+                    </p>
+                </details>
+                <details class="group p-5">
+                    <summary class="cursor-pointer list-none flex items-center justify-between">
+                        <span class="font-medium">Проводите монтаж и обслуживание?</span><svg
+                            class="h-5 w-5 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg
+                               " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="text-white/70 mt-3">
+                        Да, монтаж АПС/СОУЭ, обслуживание огнетушителей, гидрантов и
+                        шкафов.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order form / Contacts -->
+    <section id="contacts" class="py-16 md:py-20">
+        <div class="max-w-7xl mx-auto safe-area grid md:grid-cols-2 gap-10 items-start">
+            <div>
+                <h2 class="text-2xl md:text-3xl font-bold">Контакты</h2>
+                <ul class="mt-4 space-y-2 text-white/80">
+                    <li>
+                        <strong>Телефон:</strong>
+                        <a class="hover:underline" href="tel:+77058406951">+7 705 840 69 51</a>
+                    </li>
+                    <li>
+                        <strong>WhatsApp:</strong>
+                        <a class="hover:underline" href="https://wa.me/77058406951">wa.me/77058406951</a>
+                    </li>
+                    <li>
+                        <strong>Email:</strong>
+                        <a class="hover:underline" href="mailto:alyabev74@mail.ru">alyabev74@mail.ru</a>
+                    </li>
+                    <li><strong>График:</strong> Пн–Сб 9:00–19:00</li>
+                </ul>
+                <div class="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <iframe title="Карта"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=76.9%2C52.25%2C77.1%2C52.35&amp;layer=mapnik"
+                        class="w-full h-64 rounded-xl"></iframe>
+                </div>
+            </div>
+
+            <div id="order" class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 class="text-xl font-semibold">Запросить счёт на оплату</h3>
+                <form id="leadForm" class="mt-4 space-y-4" novalidate>
+                    <div>
+                        <label class="text-sm text-white/70">Имя</label>
+                        <input name="name" required
+                            class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                            placeholder="Иван" />
+                    </div>
+                    <div>
+                        <label class="text-sm text-white/70">Телефон или WhatsApp</label>
+                        <input name="phone" required pattern="^[+0-9 ()-]{6,}$"
+                            class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                            placeholder="+7 777 777 77 77" />
+                    </div>
+                    <div>
+                        <label class="text-sm text-white/70">Что требуется?</label>
+                        <textarea name="message" rows="3"
+                            class="mt-1 w-full px-4 py-3 rounded-xl bg-white/10 border border-white/10 focus:outline-none focus:ring-2 focus:ring-brand-500"
+                            placeholder="Огнетушители ОП-4 — 10 шт; шкаф ШПО-103 — 2 шт"></textarea>
+                    </div>
+                    <div class="flex items-center gap-3 text-sm">
+                        <input name="agree" id="agree" type="checkbox" required
+                            class="h-4 w-4 rounded border-white/20 bg-white/10" />
+                        <label for="agree" class="text-white/70">Согласен с
+                            <a href="#" id="privacyOpen" class="underline">политикой обработки данных</a></label>
+                    </div>
+                    <button type="submit"
+                        class="w-full px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-500 font-semibold">
+                        Отправить
+                    </button>
+                    <p id="formMsg" class="hidden text-sm"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-10 text-sm">
+        <div class="max-w-7xl mx-auto safe-area flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <p>
+                © <span id="year"></span> Компания "ПожарБез" — Все права защищены
+            </p>
+            <div class="flex items-center gap-4">
+                <a href="#" id="privacyOpen2" class="hover:underline">Политика конфиденциальности</a>
+                <a href="#" class="hover:underline">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal / Details -->
+    <div id="modal" class="fixed inset-0 hidden items-center justify-center p-4">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative z-10 w-full max-w-lg rounded-2xl border border-white/10 bg-[#0f141a] p-6 shadow-soft">
+            <div class="flex items-start justify-between gap-4">
+                <div>
+                    <h4 id="modalTitle" class="text-xl font-semibold"></h4>
+                    <p id="modalText" class="mt-2 text-white/80"></p>
+                </div>
+                <button id="modalClose" class="p-2 rounded-lg hover:bg-white/10" aria-label="Закрыть">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Modal -->
+    <div id="privacyModal" class="fixed inset-0 hidden items-center justify-center p-4">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div
+            class="relative z-10 w-full max-w-2xl rounded-2xl border border-white/10 bg-[#0f141a] p-6 shadow-soft max-h-[80vh] overflow-y-auto">
+            <div class="flex items-start justify-between gap-4">
+                <h4 class="text-xl font-semibold">
+                    Политика обработки персональных данных
+                </h4>
+                <button id="privacyClose" class="p-2 rounded-lg hover:bg-white/10" aria-label="Закрыть">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 6l12 12M6 18L18 6" />
+                    </svg>
+                </button>
+            </div>
+            <div class="mt-3 text-white/80 space-y-3 text-sm">
+                <p>
+                    Мы собираем и обрабатываем имя и контактные данные только для связи
+                    по вашему запросу. Данные не передаются третьим лицам, кроме служб
+                    доставки и бухгалтерии при оформлении договора.
+                </p>
+                <p>
+                    Отправляя форму, вы соглашаетесь на обработку данных в соответствии
+                    с Законом РК «О персональных данных и их защите».
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
